@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 def main():
-    df = pd.read_csv("dashboard\main_data.csv")
+    df = pd.read_csv("dashboard\\main_data.csv")
 
     st.set_page_config(page_title="Beijing Air Quality Dashboard", page_icon="🌫️", layout="wide")
     sns.set_theme(style="darkgrid")
